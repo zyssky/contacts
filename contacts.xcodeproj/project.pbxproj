@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB318E131E06D52400ED114F /* default_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E121E06D52400ED114F /* default_contact.png */; };
+		CB318E151E06DBEB00ED114F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E141E06DBEB00ED114F /* add.png */; };
+		CB318E171E06DC8800ED114F /* add_72px_1199462_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */; };
+		CB8E6FBC1E06C5B20098FB2E /* ic_email_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8E6FBB1E06C5B20098FB2E /* ic_email_3x.png */; };
+		CB8E6FBE1E06C5CA0098FB2E /* ic_phone_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8E6FBD1E06C5CA0098FB2E /* ic_phone_3x.png */; };
+		CB8E6FC01E06C5DE0098FB2E /* ic_textsms_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8E6FBF1E06C5DE0098FB2E /* ic_textsms_3x.png */; };
 		CB8EE28A1DDEDCE100CC8FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2891DDEDCE100CC8FC1 /* AppDelegate.swift */; };
 		CB8EE28C1DDEDCE100CC8FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE28B1DDEDCE100CC8FC1 /* ViewController.swift */; };
 		CB8EE28F1DDEDCE100CC8FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8EE28D1DDEDCE100CC8FC1 /* Main.storyboard */; };
@@ -18,6 +24,7 @@
 		CB8EE2BA1DDEE5E700CC8FC1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */; };
 		CB8EE2BC1DDEE6B100CC8FC1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */; };
 		CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */; };
+		CB9369DB1E067C9B00C6FBF6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9369DA1E067C9B00C6FBF6 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB318E121E06D52400ED114F /* default_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_contact.png; sourceTree = "<group>"; };
+		CB318E141E06DBEB00ED114F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_72px_1199462_easyicon.net.png; sourceTree = "<group>"; };
+		CB8E6FBB1E06C5B20098FB2E /* ic_email_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_3x.png; sourceTree = "<group>"; };
+		CB8E6FBD1E06C5CA0098FB2E /* ic_phone_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_phone_3x.png; sourceTree = "<group>"; };
+		CB8E6FBF1E06C5DE0098FB2E /* ic_textsms_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_textsms_3x.png; sourceTree = "<group>"; };
 		CB8EE2861DDEDCE100CC8FC1 /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8EE2891DDEDCE100CC8FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8EE28B1DDEDCE100CC8FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +68,7 @@
 		CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-default.jpg"; sourceTree = "<group>"; };
+		CB9369DA1E067C9B00C6FBF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 		CB8EE2881DDEDCE100CC8FC1 /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				CB9369DA1E067C9B00C6FBF6 /* icon.png */,
 				CB8EE2BD1DDEFC1700CC8FC1 /* supporting */,
 				CB8EE2891DDEDCE100CC8FC1 /* AppDelegate.swift */,
 				CB8EE28B1DDEDCE100CC8FC1 /* ViewController.swift */,
@@ -140,6 +155,12 @@
 		CB8EE2BD1DDEFC1700CC8FC1 /* supporting */ = {
 			isa = PBXGroup;
 			children = (
+				CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */,
+				CB318E141E06DBEB00ED114F /* add.png */,
+				CB318E121E06D52400ED114F /* default_contact.png */,
+				CB8E6FBF1E06C5DE0098FB2E /* ic_textsms_3x.png */,
+				CB8E6FBD1E06C5CA0098FB2E /* ic_phone_3x.png */,
+				CB8E6FBB1E06C5B20098FB2E /* ic_email_3x.png */,
 				CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */,
 			);
 			name = supporting;
@@ -253,9 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */,
+				CB318E171E06DC8800ED114F /* add_72px_1199462_easyicon.net.png in Resources */,
+				CB8E6FC01E06C5DE0098FB2E /* ic_textsms_3x.png in Resources */,
+				CB9369DB1E067C9B00C6FBF6 /* icon.png in Resources */,
+				CB318E151E06DBEB00ED114F /* add.png in Resources */,
 				CB8EE2941DDEDCE100CC8FC1 /* LaunchScreen.storyboard in Resources */,
 				CB8EE2911DDEDCE100CC8FC1 /* Assets.xcassets in Resources */,
 				CB8EE28F1DDEDCE100CC8FC1 /* Main.storyboard in Resources */,
+				CB8E6FBC1E06C5B20098FB2E /* ic_email_3x.png in Resources */,
+				CB318E131E06D52400ED114F /* default_contact.png in Resources */,
+				CB8E6FBE1E06C5CA0098FB2E /* ic_phone_3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
 
+    @IBAction func onTouchEmail(_ sender: AnyObject) {
+        NSLog("ontouchemail")
+        guard let url = NSURL(string: "mailto://\(email.text)") else {
+            return
+        }
+        
+        if UIApplication.shared.canOpenURL(url as URL) {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var phone: UITextField!
     @IBOutlet weak var name: UITextField!
@@ -22,6 +33,29 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         present(imagePicker, animated: true, completion: nil)
     }
     
+    @IBAction func onTouchMessage(_ sender: AnyObject) {
+        NSLog("ontouchmessage")
+        guard let url = NSURL(string: "mailto://\(phone.text)") else {
+            return
+        }
+        
+        if UIApplication.shared.canOpenURL(url as URL) {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
+    
+    
+    @IBAction func onTouchPhone(_ sender: AnyObject) {
+        NSLog("ontouchphone")
+        guard let url = NSURL(string: "tel://\(phone.text)") else {
+            return
+        }
+        
+        if UIApplication.shared.canOpenURL(url as URL) {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
     
     
     @IBAction func tapOnPhotoimage(_ sender: AnyObject) {

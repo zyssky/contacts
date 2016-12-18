@@ -11,10 +11,23 @@ import UIKit
 class TableViewController: UITableViewController {
     
     var contacts:[Contact] = []
+    
+    func loadContacts() -> [Contact]? {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: Contact.ArchieveURL.path) as? [Contact]
+    }
+    
+    func saveContact() {
+        let success = NSKeyedArchiver.archiveRootObject(contacts, toFile: Contact.ArchieveURL.path)
+        if !success {
+            print("fail")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let contactss = loadContacts(){
+            contacts = contactss
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -46,7 +59,7 @@ class TableViewController: UITableViewController {
         let contact = contacts[indexPath.row]
         cell.photoImage.image = contact.photo
         cell.name.text = contact.name
-        cell.phone.text = contact.phone
+//        cell.phone.text = contact.phone
 
         return cell
     }
@@ -66,6 +79,7 @@ class TableViewController: UITableViewController {
                 }
             }
         }
+        saveContact()
     }
     
     @IBAction func cancleToList(segue:UIStoryboardSegue){
@@ -95,7 +109,9 @@ class TableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             contacts.remove(at: indexPath.row)
+            saveContact()
             tableView.deleteRows(at: [indexPath], with: .fade)
+            
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
