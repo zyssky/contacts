@@ -14,6 +14,10 @@
 		CB8EE2941DDEDCE100CC8FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8EE2921DDEDCE100CC8FC1 /* LaunchScreen.storyboard */; };
 		CB8EE29F1DDEDCE100CC8FC1 /* contactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE29E1DDEDCE100CC8FC1 /* contactsTests.swift */; };
 		CB8EE2AA1DDEDCE100CC8FC1 /* contactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2A91DDEDCE100CC8FC1 /* contactsUITests.swift */; };
+		CB8EE2B81DDEE51100CC8FC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2B71DDEE51100CC8FC1 /* TableViewController.swift */; };
+		CB8EE2BA1DDEE5E700CC8FC1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */; };
+		CB8EE2BC1DDEE6B100CC8FC1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */; };
+		CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CB8EE2A51DDEDCE100CC8FC1 /* contactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8EE2A91DDEDCE100CC8FC1 /* contactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsUITests.swift; sourceTree = "<group>"; };
 		CB8EE2AB1DDEDCE100CC8FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8EE2B71DDEE51100CC8FC1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-default.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		CB8EE2881DDEDCE100CC8FC1 /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				CB8EE2BD1DDEFC1700CC8FC1 /* supporting */,
 				CB8EE2891DDEDCE100CC8FC1 /* AppDelegate.swift */,
 				CB8EE28B1DDEDCE100CC8FC1 /* ViewController.swift */,
 				CB8EE28D1DDEDCE100CC8FC1 /* Main.storyboard */,
 				CB8EE2901DDEDCE100CC8FC1 /* Assets.xcassets */,
 				CB8EE2921DDEDCE100CC8FC1 /* LaunchScreen.storyboard */,
 				CB8EE2951DDEDCE100CC8FC1 /* Info.plist */,
+				CB8EE2B71DDEE51100CC8FC1 /* TableViewController.swift */,
+				CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */,
+				CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */,
 			);
 			path = contacts;
 			sourceTree = "<group>";
@@ -123,6 +135,14 @@
 				CB8EE2AB1DDEDCE100CC8FC1 /* Info.plist */,
 			);
 			path = contactsUITests;
+			sourceTree = "<group>";
+		};
+		CB8EE2BD1DDEFC1700CC8FC1 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CB8EE2BE1DDEFC7800CC8FC1 /* contact-default.jpg */,
+			);
+			name = supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */,
 				CB8EE2941DDEDCE100CC8FC1 /* LaunchScreen.storyboard in Resources */,
 				CB8EE2911DDEDCE100CC8FC1 /* Assets.xcassets in Resources */,
 				CB8EE28F1DDEDCE100CC8FC1 /* Main.storyboard in Resources */,
@@ -260,6 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8EE28C1DDEDCE100CC8FC1 /* ViewController.swift in Sources */,
+				CB8EE2BA1DDEE5E700CC8FC1 /* TableViewCell.swift in Sources */,
+				CB8EE2BC1DDEE6B100CC8FC1 /* Contact.swift in Sources */,
+				CB8EE2B81DDEE51100CC8FC1 /* TableViewController.swift in Sources */,
 				CB8EE28A1DDEDCE100CC8FC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +529,7 @@
 				CB8EE2B01DDEDCE100CC8FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB8EE2B11DDEDCE100CC8FC1 /* Build configuration list for PBXNativeTarget "contactsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				CB8EE2B31DDEDCE100CC8FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB8EE2B41DDEDCE100CC8FC1 /* Build configuration list for PBXNativeTarget "contactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				CB8EE2B61DDEDCE100CC8FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
