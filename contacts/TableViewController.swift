@@ -92,7 +92,7 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
             return contacts.count
         }
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if(searchOpen){
@@ -159,7 +159,7 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
             // Delete the row from the data source
             contacts.remove(at: indexPath.row)
             saveContact()
-            tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.right)
             
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -211,6 +211,8 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     func animateTable(){
         
         self.table.reloadData()
+//        TableViewAnimation.Cell.left(duration: 0.5)
+        
         let cells = self.table.visibleCells
         let tableHeight: CGFloat = self.table.bounds.size.height
         
@@ -225,8 +227,9 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         for X in cells {
             
             let cell: UITableViewCell = X as UITableViewCell
-            UIView.animate(withDuration: 1.0, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            cell.transform = CGAffineTransform(translationX: 0,y: 0)
+            cell.layer.transform = CATransform3DMakeScale(0.1, 0.25, 0.25)
+            UIView.animate(withDuration: 1.0, delay: 0.1 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            cell.layer.transform = CATransform3DMakeScale(1, 1, 1)
             }, completion: nil)
             
             index += 1

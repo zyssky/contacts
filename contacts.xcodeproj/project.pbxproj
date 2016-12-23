@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A36A39761E0C312F0090F749 /* KungFuPanda.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39751E0C312F0090F749 /* KungFuPanda.png */; };
-		A36A39781E0C5E670090F749 /* Panda2.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39771E0C5E670090F749 /* Panda2.png */; };
-		A36A397A1E0C5E840090F749 /* Panda3.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39791E0C5E830090F749 /* Panda3.png */; };
-		A36A397C1E0C5E930090F749 /* Panda4.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A397B1E0C5E930090F749 /* Panda4.png */; };
-		A36A397E1E0C5EA10090F749 /* Panda5.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A397D1E0C5EA10090F749 /* Panda5.png */; };
+		A34314311E0CEB5600461E18 /* KungFuPanda.png in Resources */ = {isa = PBXBuildFile; fileRef = A343142C1E0CEB5600461E18 /* KungFuPanda.png */; };
+		A34314321E0CEB5600461E18 /* Panda2.png in Resources */ = {isa = PBXBuildFile; fileRef = A343142D1E0CEB5600461E18 /* Panda2.png */; };
+		A34314331E0CEB5600461E18 /* Panda3.png in Resources */ = {isa = PBXBuildFile; fileRef = A343142E1E0CEB5600461E18 /* Panda3.png */; };
+		A34314341E0CEB5600461E18 /* Panda4.png in Resources */ = {isa = PBXBuildFile; fileRef = A343142F1E0CEB5600461E18 /* Panda4.png */; };
+		A34314351E0CEB5600461E18 /* Panda5.png in Resources */ = {isa = PBXBuildFile; fileRef = A34314301E0CEB5600461E18 /* Panda5.png */; };
+		A34314371E0CF08900461E18 /* Anims.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34314361E0CF08900461E18 /* Anims.swift */; };
 		A39726AC1E0C0400000E0D4C /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = A39726AB1E0C0400000E0D4C /* panda.png */; };
 		CB318E131E06D52400ED114F /* default_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E121E06D52400ED114F /* default_contact.png */; };
 		CB318E151E06DBEB00ED114F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E141E06DBEB00ED114F /* add.png */; };
@@ -51,11 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A36A39751E0C312F0090F749 /* KungFuPanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KungFuPanda.png; path = ../../KungFuPanda.png; sourceTree = "<group>"; };
-		A36A39771E0C5E670090F749 /* Panda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda2.png; path = ../../../Downloads/Panda2.png; sourceTree = "<group>"; };
-		A36A39791E0C5E830090F749 /* Panda3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda3.png; path = ../../../Downloads/Panda3.png; sourceTree = "<group>"; };
-		A36A397B1E0C5E930090F749 /* Panda4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda4.png; path = ../../../Downloads/Panda4.png; sourceTree = "<group>"; };
-		A36A397D1E0C5EA10090F749 /* Panda5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda5.png; path = ../../../Downloads/Panda5.png; sourceTree = "<group>"; };
+		A343142C1E0CEB5600461E18 /* KungFuPanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KungFuPanda.png; sourceTree = "<group>"; };
+		A343142D1E0CEB5600461E18 /* Panda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panda2.png; sourceTree = "<group>"; };
+		A343142E1E0CEB5600461E18 /* Panda3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panda3.png; sourceTree = "<group>"; };
+		A343142F1E0CEB5600461E18 /* Panda4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panda4.png; sourceTree = "<group>"; };
+		A34314301E0CEB5600461E18 /* Panda5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panda5.png; sourceTree = "<group>"; };
+		A34314361E0CF08900461E18 /* Anims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anims.swift; sourceTree = "<group>"; };
 		A36A397F1E0C67950090F749 /* contacts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = contacts.entitlements; sourceTree = "<group>"; };
 		A39726AB1E0C0400000E0D4C /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda.png; path = ../../../Downloads/panda.png; sourceTree = "<group>"; };
 		CB318E121E06D52400ED114F /* default_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_contact.png; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				CB8EE2B71DDEE51100CC8FC1 /* TableViewController.swift */,
 				CB8EE2B91DDEE5E700CC8FC1 /* TableViewCell.swift */,
 				CB8EE2BB1DDEE6B100CC8FC1 /* Contact.swift */,
+				A34314361E0CF08900461E18 /* Anims.swift */,
 			);
 			path = contacts;
 			sourceTree = "<group>";
@@ -171,11 +174,11 @@
 			children = (
 				CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */,
 				A39726AB1E0C0400000E0D4C /* panda.png */,
-				A36A39751E0C312F0090F749 /* KungFuPanda.png */,
-				A36A39771E0C5E670090F749 /* Panda2.png */,
-				A36A397B1E0C5E930090F749 /* Panda4.png */,
-				A36A39791E0C5E830090F749 /* Panda3.png */,
-				A36A397D1E0C5EA10090F749 /* Panda5.png */,
+				A343142C1E0CEB5600461E18 /* KungFuPanda.png */,
+				A343142D1E0CEB5600461E18 /* Panda2.png */,
+				A343142E1E0CEB5600461E18 /* Panda3.png */,
+				A343142F1E0CEB5600461E18 /* Panda4.png */,
+				A34314301E0CEB5600461E18 /* Panda5.png */,
 				CB318E141E06DBEB00ED114F /* add.png */,
 				CB318E121E06D52400ED114F /* default_contact.png */,
 				CB8E6FBF1E06C5DE0098FB2E /* ic_textsms_3x.png */,
@@ -299,14 +302,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36A397C1E0C5E930090F749 /* Panda4.png in Resources */,
-				A36A39761E0C312F0090F749 /* KungFuPanda.png in Resources */,
 				CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */,
-				A36A397E1E0C5EA10090F749 /* Panda5.png in Resources */,
+				A34314341E0CEB5600461E18 /* Panda4.png in Resources */,
+				A34314331E0CEB5600461E18 /* Panda3.png in Resources */,
 				A39726AC1E0C0400000E0D4C /* panda.png in Resources */,
-				A36A397A1E0C5E840090F749 /* Panda3.png in Resources */,
-				A36A39781E0C5E670090F749 /* Panda2.png in Resources */,
 				CB318E171E06DC8800ED114F /* add_72px_1199462_easyicon.net.png in Resources */,
+				A34314311E0CEB5600461E18 /* KungFuPanda.png in Resources */,
 				CB8E6FC01E06C5DE0098FB2E /* ic_textsms_3x.png in Resources */,
 				CB9369DB1E067C9B00C6FBF6 /* icon.png in Resources */,
 				CB318E151E06DBEB00ED114F /* add.png in Resources */,
@@ -314,7 +315,9 @@
 				CB8EE2911DDEDCE100CC8FC1 /* Assets.xcassets in Resources */,
 				CB8EE28F1DDEDCE100CC8FC1 /* Main.storyboard in Resources */,
 				CB8E6FBC1E06C5B20098FB2E /* ic_email_3x.png in Resources */,
+				A34314321E0CEB5600461E18 /* Panda2.png in Resources */,
 				CB318E131E06D52400ED114F /* default_contact.png in Resources */,
+				A34314351E0CEB5600461E18 /* Panda5.png in Resources */,
 				CB8E6FBE1E06C5CA0098FB2E /* ic_phone_3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +347,7 @@
 				CB8EE2BA1DDEE5E700CC8FC1 /* TableViewCell.swift in Sources */,
 				CB8EE2BC1DDEE6B100CC8FC1 /* Contact.swift in Sources */,
 				CB8EE2B81DDEE51100CC8FC1 /* TableViewController.swift in Sources */,
+				A34314371E0CF08900461E18 /* Anims.swift in Sources */,
 				CB8EE28A1DDEDCE100CC8FC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
