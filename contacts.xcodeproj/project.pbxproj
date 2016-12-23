@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36A39761E0C312F0090F749 /* KungFuPanda.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39751E0C312F0090F749 /* KungFuPanda.png */; };
+		A36A39781E0C5E670090F749 /* Panda2.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39771E0C5E670090F749 /* Panda2.png */; };
+		A36A397A1E0C5E840090F749 /* Panda3.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A39791E0C5E830090F749 /* Panda3.png */; };
+		A36A397C1E0C5E930090F749 /* Panda4.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A397B1E0C5E930090F749 /* Panda4.png */; };
+		A36A397E1E0C5EA10090F749 /* Panda5.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A397D1E0C5EA10090F749 /* Panda5.png */; };
+		A39726AC1E0C0400000E0D4C /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = A39726AB1E0C0400000E0D4C /* panda.png */; };
 		CB318E131E06D52400ED114F /* default_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E121E06D52400ED114F /* default_contact.png */; };
 		CB318E151E06DBEB00ED114F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E141E06DBEB00ED114F /* add.png */; };
 		CB318E171E06DC8800ED114F /* add_72px_1199462_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */; };
@@ -45,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A36A39751E0C312F0090F749 /* KungFuPanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KungFuPanda.png; path = ../../KungFuPanda.png; sourceTree = "<group>"; };
+		A36A39771E0C5E670090F749 /* Panda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda2.png; path = ../../../Downloads/Panda2.png; sourceTree = "<group>"; };
+		A36A39791E0C5E830090F749 /* Panda3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda3.png; path = ../../../Downloads/Panda3.png; sourceTree = "<group>"; };
+		A36A397B1E0C5E930090F749 /* Panda4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda4.png; path = ../../../Downloads/Panda4.png; sourceTree = "<group>"; };
+		A36A397D1E0C5EA10090F749 /* Panda5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Panda5.png; path = ../../../Downloads/Panda5.png; sourceTree = "<group>"; };
+		A36A397F1E0C67950090F749 /* contacts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = contacts.entitlements; sourceTree = "<group>"; };
+		A39726AB1E0C0400000E0D4C /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda.png; path = ../../../Downloads/panda.png; sourceTree = "<group>"; };
 		CB318E121E06D52400ED114F /* default_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_contact.png; sourceTree = "<group>"; };
 		CB318E141E06DBEB00ED114F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_72px_1199462_easyicon.net.png; sourceTree = "<group>"; };
@@ -119,6 +132,7 @@
 		CB8EE2881DDEDCE100CC8FC1 /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				A36A397F1E0C67950090F749 /* contacts.entitlements */,
 				CB9369DA1E067C9B00C6FBF6 /* icon.png */,
 				CB8EE2BD1DDEFC1700CC8FC1 /* supporting */,
 				CB8EE2891DDEDCE100CC8FC1 /* AppDelegate.swift */,
@@ -156,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				CB318E161E06DC8800ED114F /* add_72px_1199462_easyicon.net.png */,
+				A39726AB1E0C0400000E0D4C /* panda.png */,
+				A36A39751E0C312F0090F749 /* KungFuPanda.png */,
+				A36A39771E0C5E670090F749 /* Panda2.png */,
+				A36A397B1E0C5E930090F749 /* Panda4.png */,
+				A36A39791E0C5E830090F749 /* Panda3.png */,
+				A36A397D1E0C5EA10090F749 /* Panda5.png */,
 				CB318E141E06DBEB00ED114F /* add.png */,
 				CB318E121E06D52400ED114F /* default_contact.png */,
 				CB8E6FBF1E06C5DE0098FB2E /* ic_textsms_3x.png */,
@@ -229,12 +249,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = zyssky;
 				TargetAttributes = {
 					CB8EE2851DDEDCE100CC8FC1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 82ZXH4BEBE;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					CB8EE2991DDEDCE100CC8FC1 = {
 						CreatedOnToolsVersion = 8.0;
@@ -273,7 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36A397C1E0C5E930090F749 /* Panda4.png in Resources */,
+				A36A39761E0C312F0090F749 /* KungFuPanda.png in Resources */,
 				CB8EE2BF1DDEFC7800CC8FC1 /* contact-default.jpg in Resources */,
+				A36A397E1E0C5EA10090F749 /* Panda5.png in Resources */,
+				A39726AC1E0C0400000E0D4C /* panda.png in Resources */,
+				A36A397A1E0C5E840090F749 /* Panda3.png in Resources */,
+				A36A39781E0C5E670090F749 /* Panda2.png in Resources */,
 				CB318E171E06DC8800ED114F /* add_72px_1199462_easyicon.net.png in Resources */,
 				CB8E6FC01E06C5DE0098FB2E /* ic_textsms_3x.png in Resources */,
 				CB9369DB1E067C9B00C6FBF6 /* icon.png in Resources */,
@@ -385,6 +417,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -435,6 +468,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -464,6 +498,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = contacts/contacts.entitlements;
+				DEVELOPMENT_TEAM = 82ZXH4BEBE;
 				INFOPLIST_FILE = contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scut.contacts;
@@ -476,6 +512,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = contacts/contacts.entitlements;
+				DEVELOPMENT_TEAM = 82ZXH4BEBE;
 				INFOPLIST_FILE = contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scut.contacts;
